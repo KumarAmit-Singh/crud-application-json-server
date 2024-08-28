@@ -1,0 +1,17 @@
+{
+    "employee": [
+      {
+        "id": "9fde",
+        "name": "Amit Kumar Singh",
+        "email": "ammit@gmail.com",
+        "phone": "1234567890"
+      },
+      {
+        "id": "a2aa",
+        "name": "dafsffg",
+        "email": "3rw4te",
+        "phone": "eqrewret",
+        "active": true
+      }
+    ]
+  }
