@@ -44,3 +44,19 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  margin-top: 18rem;
+  padding: 1rem;
+  border: none;
+  background-color: rgb(5, 107, 224);
+  color: white;
+  width: 20%;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+      opacity: 0.9;
+  }
+}
