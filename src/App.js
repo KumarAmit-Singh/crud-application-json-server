@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <h1>CRUD Application developed Using JSON Server</h1>
-      <BrowserRouter>
+      <BrowserRouter basename='/crud-application-json-server'>
         <Routes>
-          <Route path='/' element = {<Link to="/applications"><button className='app'>Visit Application</button></Link>} />
+          <Route path='/crud-application-json-server' element = {<Link to="/applications"><button className='app'>Visit Application</button></Link>} />
           <Route path='/applications' element={<EmpListing />}></Route>
           <Route path='/applications/employee/create' element={<EmpCreate />}></Route>
 
