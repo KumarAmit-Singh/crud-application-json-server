@@ -14,12 +14,12 @@ function App() {
       <h1>CRUD Application developed Using JSON Server</h1>
       <BrowserRouter basename='/crud-application-json-server'>
         <Routes>
-          <Route path='/crud-application-json-server' element = {<Link to="/applications"><button className='app'>Visit Application</button></Link>} />
-          <Route path='/applications' element={<EmpListing />}></Route>
-          <Route path='/applications/employee/create' element={<EmpCreate />}></Route>
+          <Route exact path='/crud-application-json-server' element = {<Link to="/applications"><button className='app'>Visit Application</button></Link>} />
+          <Route path='/' element={<EmpListing />}></Route>
+          <Route path='/employee/create' element={<EmpCreate />}></Route>
 
-          <Route path='/applications/employee/detail/:empid' element={<EmpDetail />}></Route>
-          <Route path='/applications/employee/edit/:empid' element={<EmpEdit />}></Route>
+          <Route path='/employee/detail/:empid' element={<EmpDetail />}></Route>
+          <Route path='/employee/edit/:empid' element={<EmpEdit />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

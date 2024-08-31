@@ -24,7 +24,7 @@ const EmpCreate = () => {
             body : JSON.stringify(empdata)
         }).then((res) => {
             alert('Saved Successfully.')
-            navigate('/applications')
+            navigate('/')
         }).catch((error) => {
             console.log(error.message)
         })
@@ -82,7 +82,7 @@ const EmpCreate = () => {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                            <button className="btn btn-success" type="submit">Save</button>
-                                           <Link to="/applications" className="btn btn-danger">Back</Link>
+                                           <Link to="/" className="btn btn-danger">Back</Link>
                                         </div>
                                     </div>
                                 </div>

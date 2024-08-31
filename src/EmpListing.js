@@ -7,11 +7,11 @@ const EmpListing = () => {
     const navigate = useNavigate()
 
     const LoadDetail = (id) => {
-        navigate("/applications/employee/detail/" +id)
+        navigate("/employee/detail/" +id)
     }
 
     const LoadEdit = (id) => {
-        navigate("/applications/employee/edit/" +id)
+        navigate("/employee/edit/" +id)
     }
 
     const RemoveFunction = (id) => {
