@@ -14,16 +14,15 @@ function App() {
       <h1>CRUD Application developed Using JSON Server</h1>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<EmpListing />}></Route>
-          <Route path='/employee/create' element={<EmpCreate />}></Route>
+          <Route path='/crud-application_json-server' element={<EmpListing />}></Route>
+          <Route path='/crud-application_json-server/employee/create' element={<EmpCreate />}></Route>
 
-          <Route path='/employee/detail/:empid' element={<EmpDetail />}></Route>
-          <Route path='/employee/edit/:empid' element={<EmpEdit />}></Route>
+          <Route path='/crud-application_json-server/employee/detail/:empid' element={<EmpDetail />}></Route>
+          <Route path='/crud-application_json-server/employee/edit/:empid' element={<EmpEdit />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
   ); 
 
 }
-
 export default App;

@@ -7,11 +7,11 @@ const EmpListing = () => {
     const navigate = useNavigate()
 
     const LoadDetail = (id) => {
-        navigate("/employee/detail/" +id)
+        navigate("/crud-application_json-server/employee/detail/" +id)
     }
 
     const LoadEdit = (id) => {
-        navigate("/employee/edit/" +id)
+        navigate("/crud-application_json-server/employee/edit/" +id)
     }
 
     const RemoveFunction = (id) => {
@@ -47,7 +47,7 @@ const EmpListing = () => {
                 </div>
                 <div className="card-body">
                     <div className="divbtn">
-                        <Link to='employee/create'
+                        <Link to='/crud-application_json-server/employee/create'
                         className="btn btn-success">Add New (+)</Link>
                     </div>
                     <table className="table table-bordered">
