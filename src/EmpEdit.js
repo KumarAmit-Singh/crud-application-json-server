@@ -39,7 +39,7 @@ const EmpEdit = () => {
             body: JSON.stringify(empdata)
         }).then((res) => {
             alert('Saved successfully.')
-            navigate('/crud-application_json-server');
+            navigate('/applications');
         }).catch((err) => {
             console.log(err.message)
         })
@@ -98,7 +98,7 @@ const EmpEdit = () => {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <button className="btn btn-success" type="submit">Save</button>
-                                            <Link to="/crud-application_json-server" className="btn btn-danger">Back</Link>
+                                            <Link to="/applications" className="btn btn-danger">Back</Link>
                                         </div>
                                     </div>
 

@@ -1,29 +1,14 @@
 {
   "employee": [
     {
-      "id": "854f",
-      "name": "Amit Singh",
-      "email": "amitkms95@gmail.com",
-      "phone": "8601527876",
-      "active": true
-    },
-    {
-      "id": "056e",
-      "name": "Amit Singh rajpoot",
-      "email": "amitkms95@gmail.com",
-      "phone": "8601527876",
-      "active": true
-    },
-    {
-      "id": "1539",
-      "name": "Amit Singh DAFSFB",
-      "email": "amitkms95@gmail.com",
-      "phone": "8601527876",
-      "active": true
-    },
-    {
       "id": "3a93",
-      "name": "Amit Singh glouddsbkds",
+      "name": "Amit Singh glouddsbkdssADSDFGF",
+      "email": "amitkms95@gmail.com",
+      "phone": "8601527876"
+    },
+    {
+      "id": "6267",
+      "name": "Amit Singh",
       "email": "amitkms95@gmail.com",
       "phone": "8601527876",
       "active": true
