@@ -14,7 +14,7 @@ function App() {
       <h1>CRUD Application developed Using JSON Server</h1>
       <BrowserRouter basename='/crud-application-json-server'>
         <Routes>
-          <Route exact path='/crud-application-json-server' element = {<Link to="/applications"><button className='app'>Visit Application</button></Link>} />
+          
           <Route path='/' element={<EmpListing />}></Route>
           <Route path='/employee/create' element={<EmpCreate />}></Route>
 

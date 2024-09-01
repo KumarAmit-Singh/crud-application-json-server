@@ -18,7 +18,7 @@ const EmpCreate = () => {
         const empdata = {name,email,phone,active};
         console.log(empdata)
 
-        fetch("http://localhost:8001/employee", {
+        fetch("http://localhost:8001/employee/", {
             method : "POST",
             headers : {"content-type":"application/json"},
             body : JSON.stringify(empdata)

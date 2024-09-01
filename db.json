@@ -1,17 +1,10 @@
 {
   "employee": [
     {
-      "id": "3a93",
-      "name": "Amit Singh glouddsbkdssADSDFGF",
+      "id": "22bd",
+      "name": "Amit Singh rajpoot 1",
       "email": "amitkms95@gmail.com",
       "phone": "8601527876"
-    },
-    {
-      "id": "6267",
-      "name": "Amit Singh",
-      "email": "amitkms95@gmail.com",
-      "phone": "8601527876",
-      "active": true
     }
   ]
 }
