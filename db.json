@@ -1,15 +1,8 @@
 {
   "employee": [
     {
-      "id": "5765",
+      "id": "868a",
       "name": "Amit Singh",
-      "email": "amitkms95@gmail.com",
-      "phone": "8601527876",
-      "active": true
-    },
-    {
-      "id": "180c",
-      "name": "Amit Singh 1",
       "email": "amitkms95@gmail.com",
       "phone": "8601527876",
       "active": true

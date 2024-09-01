@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import EmpListing from './EmpListing';
 import EmpCreate from './EmpCreate'
 import EmpDetail from './EmpDetail';
@@ -14,7 +14,8 @@ function App() {
       <h1>CRUD Application developed Using JSON Server</h1>
       <BrowserRouter basename='/crud-application-json-server'>
         <Routes>
-          
+          <Route path='/crud-application-json-server'><Link to='/'>
+          <button className='add'>Visit Website</button></Link></Route>
           <Route path='/' element={<EmpListing />}></Route>
           <Route exact path='/employee/create' element={<EmpCreate />}></Route>
 
