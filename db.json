@@ -1,8 +1,22 @@
 {
   "employee": [
     {
-      "id": "fd52",
-      "name": "Amit Singh Rajpoot",
+      "id": "6abb",
+      "name": "Jewel Parker",
+      "email": "jewel@gmail.com",
+      "phone": "1234567890",
+      "active": true
+    },
+    {
+      "id": "dcc8",
+      "name": "Amit Singh",
+      "email": "amitkms95@gmail.com",
+      "phone": "8601527876",
+      "active": true
+    },
+    {
+      "id": "3810",
+      "name": "Amit Singh",
       "email": "amitkms95@gmail.com",
       "phone": "8601527876",
       "active": true
