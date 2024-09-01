@@ -24,7 +24,7 @@ const EmpCreate = () => {
             body : JSON.stringify(empdata)
         }).then((res) => {
             alert('Saved Successfully.')
-            navigate('/')
+            navigate('/');
         }).catch((error) => {
             console.log(error.message)
         })
