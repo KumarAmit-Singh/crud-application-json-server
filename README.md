@@ -1,1 +1,1 @@
-first of all you are starting the crud-application with json-server and router application using the command for json-server (json-server db.json --port 8001). This command specify the databases of ther server.
+first of all you are starting the crud-application with json-server and router application using the command for json-server (json-server db.json --port 8001). This command specify the databases of their application.
